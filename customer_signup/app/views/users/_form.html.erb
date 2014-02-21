@@ -10,13 +10,18 @@
       </ul>
     </div>
   <% end %>
-  <%= f.label :first_name %>
-  <%= f.text_field :first_name %><br />
-  <%= f.label :last_name %>
-  <%= f.text_field :last_name %><br />
-  <%= f.label :email %>
-  <%= f.text_field :email %>
-
+<div class="row">
+  <div class="col-md-1"><%= f.label :first_name %></div>
+  <div class="col-md-11"><%= f.text_field :first_name %></div>
+</div>
+<div class="row">
+  <div class="col-md-1"><%= f.label :last_name %></div>
+  <div class="col-md-11"><%= f.text_field :last_name %></div>
+</div>
+<div class="row">
+  <div class="col-md-1"><%= f.label :email %></div>
+  <div class="col-md-11"><%= f.text_field :email %></div>
+</div>
   <div class="actions">
     <%= f.submit %>
   </div>
