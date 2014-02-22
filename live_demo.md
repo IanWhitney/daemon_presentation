@@ -1,5 +1,14 @@
+Before
+
+I would create a cron-like daemon using this
+
+daemon-kit -i cron customer_onboarding
+
+Daemon Kit lets you create daemons of a few different styles. The major difference is that the cron-like ones work on a timed schedule and the others respond to messages or queuing systems. We'll go with cron-like here since it's a bit more straightforward to get going.
+
+I generated this skeleton of this daemon earlier, so let's check it out and get it working.
+
 cd ~/Documents/workspace/customer_onboarding
-daemon-kit -i cron demo_daemon
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Step Zero
