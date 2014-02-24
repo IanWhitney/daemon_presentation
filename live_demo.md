@@ -13,14 +13,14 @@ cd ~/Documents/workspace/customer_onboarding
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Step Zero
 
-git checkout 94bd2135aeebd37a2ec83d88ad4c7d6d1b75dea7
+demo0
 
 Show off the table structure, compare to rails.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Step One
 
-git checkout ff319e43200c09cb001df921614d6124e9e3dd9f
+demo1
 
 Gemfile
 
@@ -29,7 +29,7 @@ Adding the sqlite3 gem
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Step Two
 
-git checkout 401a49f1dc0a0939d990db87c540b0fc7bc64ba0
+demo2
 
 Gemfile
 
@@ -40,7 +40,7 @@ ALternatively you could probably using 3.x and write your code to work with that
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Step Three
 
-git checkout e81cc9769eb64fda29123ba4624ff5aed41d876b
+demo3
 
 libexec/customer_onboarding-daemon.rb
 
@@ -57,7 +57,7 @@ Mention Jim Weirich toast after meeting
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Step Four
 
-git checkout 8664eb46438cec7dda957459db15bf57fb6af17d
+demo4
 
 tasks/onboarding.rake
 
@@ -80,7 +80,7 @@ ps aux | grep rake
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Step Six
 
-git checkout e8bd567fe81b0e580bf78b417527cce9b67cb491
+demo5
 
 libexec/customer_onboarding-daemon.rb
 
