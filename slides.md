@@ -1,9 +1,12 @@
 # Daemons in Ruby
 ## Why and How
+Ian Whitney (@IanWhitney)<br /> University of Minnesota
 
 
 
 (or as much as is possible in 15 minutes)
+Note:
+Breadth of subject and purpose of talk.
 
 
 
@@ -15,7 +18,7 @@ Note: Discussing this is about as useful as vim/emacs, and half as fun. Probably
 
 
 
-## Definiton
+## Definition
 
 
 ### A stand-alone process that runs in the background that perorms task[s].
@@ -69,21 +72,22 @@ If your job is like mine, most of your life is in the MVC universe. Writing a da
 
 
 ## The groundwork
-### PID management<!-- .element: class="fragment" data-fragment-index="1" -->
-### Logging<!-- .element: class="fragment" data-fragment-index="2" -->
-### Errors<!-- .element: class="fragment" data-fragment-index="3" -->
+### Logging<!-- .element: class="fragment" data-fragment-index="1" -->
+### Errors<!-- .element: class="fragment" data-fragment-index="2" -->
+### Scheduling<!-- .element: class="fragment" data-fragment-index="3" -->
 Note:
-Can't skip this. Without PID management you can't easily kill the process or see what's running.
 
 Everyone loves logging. When did the daemon run, why did it run, what did it do, etc. Someone will want to know this.
 
 Though I'm sure your code will never fail, someone else could break your daemon and you'll want to know how.
 
+How will your daemon know that it has work to do? Cron? Event-based? Message queue?
+
 
 
 # My enthusiasm has wained
 Note:
-This is the plumbing of every daemon, and it's interesting to do this yourself. But we'll skip it for now. If you want to know more, there's a good post by Jessie Stormer that I'll link to in my show notes on GitHub.
+Yeah, I feel you. This is the repetitive plumbing of every daemon. If only someone could make it go away...
 
 
 
@@ -91,10 +95,6 @@ This is the plumbing of every daemon, and it's interesting to do this yourself. 
 
 
 ## How much would you pay for...
-
-
-### PID managament?
-Just pay shipping and handling!
 
 
 ### Logging?
@@ -105,11 +105,22 @@ For the first 50 customers!
 Totally free. Call now!
 
 
+### Scheduling?
+Just pay shipping and handling!
+
 
 # Daemon Kit
 Note: 
-The simplest pitch for DK is that it's Rails for Dameons. It has generators that handle the repetitive plumbing and you just write your business logic.
+The simplest pitch for DK is that it's Rails for Dameons. It has generators that handle the repetitive plumbing and you just write your tests and business logic.
+
 
 
 ## My enthusiasm has returned!
 Note: Well, before I dissapoint you again, let's make that daemon.
+
+
+
+## Questions?
+- https://github.com/kennethkalmer/daemon-kit
+- https://github.com/IanWhitney/daemon_presentation
+- https://github.com/IanWhitney/customer_onboarding
